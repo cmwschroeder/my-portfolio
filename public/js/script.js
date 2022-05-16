@@ -7,6 +7,9 @@ var weatherDashImgEl = $('#weather-dashboard-image');
 var artketplaceEl = $('#artketplace');
 var artketplaceImgEl = $('#artketplace-image');
 
+var techBlogEl = $('#tech-blog');
+var techBlogImgEl = $('#tech-blog-image');
+
 pethubEl.on("mouseover", function() {
     pethubImgEl.attr("src", "/gifs/pethub.gif");
 });
@@ -29,4 +32,12 @@ artketplaceEl.on("mouseover", function() {
 
 artketplaceEl.on("mouseout", function() {
     artketplaceImgEl.attr("src", "/images/artketplace.png");
+});
+
+techBlogEl.on("mouseover", function() {
+    techBlogImgEl.attr("src", "/gifs/tech-blog.gif");
+});
+
+techBlogEl.on("mouseout", function() {
+    techBlogImgEl.attr("src", "/images/tech-blog.png");
 });
